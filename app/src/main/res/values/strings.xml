@@ -2,4 +2,7 @@
     <string name="app_name">Zaky12RPL12018</string>
     <string name="login_email_hint">Email</string>
     <string name="login_password_hint">Password</string>
+    <string name="registeremail">Email</string>
+    <string name="registerpassword">Password</string>
+    <string name="registernama">Username</string>
 </resources>

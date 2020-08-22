@@ -21,4 +21,8 @@ public class adminlog extends AppCompatActivity {
     public void backcuslog(View View){
         startActivity(new Intent(this,MainActivity.class));
     }
+
+    public void loginback(View View){
+        startActivity(new Intent(this,MainActivity.class));
+    }
 }

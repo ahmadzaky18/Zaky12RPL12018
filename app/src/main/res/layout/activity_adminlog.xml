@@ -27,7 +27,7 @@
                 <TextView
                     android:layout_centerVertical="true"
                     android:layout_alignParentLeft="true"
-                    style="@style/viewParent.headerText.NoMode"
+                    style="@style/viewParent.headerText.admin"
                     android:text="Admin login"/>
 
                 <ImageView
@@ -68,6 +68,8 @@
                 android:textSize="@dimen/newsMoreTextSize"
                 android:layout_gravity="end"
                 android:layout_marginTop="10dp"/>x
+
+
 
             <br.com.simplepass.loading_button_lib.customViews.CircularProgressButton
                 android:id="@+id/cirLoginButton"
@@ -111,20 +113,16 @@
 
         </LinearLayout>
     </ScrollView>
-    <View
-        android:layout_marginTop="20dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentRight="true"
-        android:layout_width="11dp"
-        android:layout_height="match_parent"
-        android:background="@drawable/ic_side_bg"/>
+
+
     <ImageView
         android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/ic_add_img"
+        android:src="@drawable/ic_back_img"
         android:layout_marginRight="11dp"
         android:layout_marginBottom="30dp"
-        android:onClick="backcuslog"/>
+        android:onClick="backcuslog"
+        android:adjustViewBounds="false"/>
 </RelativeLayout>

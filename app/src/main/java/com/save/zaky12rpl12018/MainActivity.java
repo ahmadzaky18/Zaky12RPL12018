@@ -29,11 +29,16 @@ CircularProgressButton circularProgressButton;
                 setContentView(R.layout.activity_main);
                 }
 
-public void onLoginClick(View View){
-        startActivity(new Intent(this,adminlog.class));
+public void regis(View View){
+        startActivity(new Intent(this,RegisterActivity.class));
 //        overridePendingTransition(R.anim.slide_in_right,R.anim.stay);
 
         }
+    public void onLoginClick(View View){
+        startActivity(new Intent(this,adminlog.class));
+//        overridePendingTransition(R.anim.slide_in_right,R.anim.stay);
+
+    }
     public void login(View View){
         startActivity(new Intent(this,beranda.class));
     }

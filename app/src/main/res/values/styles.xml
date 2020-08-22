@@ -30,9 +30,13 @@
         </style>
 
         <style name="viewParent.headerText.NoMode">
-            <item name="android:textColor">@color/colorPrimary</item>
+            <item name="android:textColor">@color/primaryTextColor</item>
 
         </style>
+    <style name="viewParent.headerText.admin">
+        <item name="android:textColor">@color/login_bk_color</item>
+
+    </style>
 
         <style name="parent">
             <item name="android:layout_width">match_parent</item>
