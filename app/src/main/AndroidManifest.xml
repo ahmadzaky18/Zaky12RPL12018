@@ -17,7 +17,9 @@
         android:roundIcon="@mipmap/ic_icon_foreground"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".RegisterActivity"></activity>
+        <activity android:name=".ReadActivity"></activity>
+        <activity android:name=".EditorActivity" />
+        <activity android:name=".RegisterActivity" />
         <activity android:name=".adminlog" />
         <activity android:name=".beranda" />
         <activity android:name=".MainActivity">
