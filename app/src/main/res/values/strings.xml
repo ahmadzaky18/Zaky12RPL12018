@@ -5,4 +5,7 @@
     <string name="registeremail">Email</string>
     <string name="registerpassword">Password</string>
     <string name="registernama">Username</string>
+    <string name="registeralamat">alamat</string>
+    <string name="registernoktp">No Ktp</string>
+
 </resources>

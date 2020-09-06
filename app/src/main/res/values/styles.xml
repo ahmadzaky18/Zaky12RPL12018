@@ -33,22 +33,35 @@
             <item name="android:textColor">@color/primaryTextColor</item>
 
         </style>
-    <style name="viewParent.headerText.admin">
+    <style name="viewParent.headerText.NoModereg">
         <item name="android:textColor">@color/login_bk_color</item>
+
+    </style>
+    <style name="viewParent.headerText.admin">
+        <item name="android:textColor">@color/primaryTextColor</item>
 
     </style>
 
         <style name="parent">
-            <item name="android:layout_width">match_parent</item>
+<!--            <item name="android:layout_width">match_parent</item>-->
+<!--            <item name="android:layout_height">wrap_content</item>-->
+            <item name="android:layout_width">350dp</item>
             <item name="android:layout_height">wrap_content</item>
         </style>
 
         <style name="modifiedEditText" parent="parent">
             <item name="android:textSize">@dimen/newsMoreTextSize</item>
-            <item name="android:textColor">@color/colorPrimary</item>
+            <item name="android:textColor">@color/white</item>
 
             <!--            <item name="android:backgroundTint">@color/primaryTextColor</item>-->
         </style>
+
+    <style name="modifiedEditTxt" parent="parent">
+        <item name="android:textSize">@dimen/newsMoreTextSize</item>
+        <item name="android:textColor">@color/darkTextColor</item>
+
+        <!--            <item name="android:backgroundTint">@color/primaryTextColor</item>-->
+    </style>
 
         <style name="loginButton" parent="viewParent">
             <item name="android:background">@drawable/button_background_blue</item>
